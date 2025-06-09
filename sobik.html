@@ -1,0 +1,57 @@
+<html>
+<body>
+<head>
+<style>
+body{
+background: linear-gradient(143.3deg, rgb(216, 27, 96) 33.1%, rgb(237, 107, 154) 74.9%);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+position:relative;
+}
+img{
+position:absolute;
+top:80px;
+width:100px;
+height:100px;
+animation: spin 2s linear infinite;
+}
+@keyframes spin{
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}
+}
+h1{
+color:white;
+font-size:50px;
+animation:gy 2s ease-in-out;
+}
+@keyframes gy{
+0%{opacity:0; transform:translate(0, -30px)}
+100%{opacity:1; transform:translate(0,0px)}
+}
+button{
+background:pink;
+color:white;
+border:none;
+border-radius:1500px;
+font-size:25px;
+padding:15px 60px;
+}
+button:hover{
+background:white;
+color:pink;
+transform:scale(1.05);
+}
+</style>
+</head>
+<body>
+<img src="bow.png">
+<h1>Dogs loves you</h1>
+<a href="sobik2.html"><button>Choose your dog</button></a>
+
+
+</body>
+</html>
